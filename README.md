@@ -76,7 +76,7 @@ sudo systemctl restart node_exporter
 
 get the `node_exporter.crt` to the server via SFTP at '/etc/prometheus/node_exporter.crt'
 
-### 1. Edit the Prometheus Configuration File
+### 2. Edit the Prometheus Configuration File
 
 append to `/etc/prometheus/prometheus.yaml` the next configuration
 
@@ -93,7 +93,7 @@ append to `/etc/prometheus/prometheus.yaml` the next configuration
       - targets: ['192.168.1.17:9100']
 ```
 
-### 2. Restart Prometheus service
+### 3. Restart Prometheus service
 
 Restart the Prometheus service:
 
